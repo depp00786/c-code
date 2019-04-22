@@ -9,14 +9,14 @@
 #define COMPARE(x,y) \
                (x<y)
 
-typedef double d;
+
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    d number;
-    d total;
+    double number;
+    double total;
     std::cout<<"Please Enter a number - ";
     std::cin>>number;
 
