@@ -26,9 +26,6 @@ int main(int argc, char *argv[])
 
     double m,n;
 
-    std::cout<<std::endl;
-    std::cout<<std::endl;
-
     std::cout<<"Please Enter two variables ";
     std::cout<<std::endl;
     std::cin>>m;
@@ -37,8 +34,8 @@ int main(int argc, char *argv[])
 
     bool answer;
 
-    answer=COMPARE(m,n);               // true or false
-
+    answer=COMPARE(m,n);               //If m<n ::true else false. 
+ 
     std::cout<<answer;
 
     return a.exec();
